@@ -8,6 +8,7 @@ const hobbyLog = [
   { day: "Thursday", hobby: "drawing", minutes: 25, mood: "creative" },
   { day: "Friday", hobby: "reading", minutes: 35, mood: "calm" }
 ];
+// One improvement suggestion I have is to use date objects instead of strings for the day property to allow for better date manipulation and sorting.
 
 // This function calculates the total time spent on hobbies and receives the log as a parameter
 function totalTime(log) {
