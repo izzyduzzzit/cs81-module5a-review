@@ -22,7 +22,7 @@ function uniqueHobbies(log) {
 }
 
 // This function filters sessions longer than a specified number of minutes using the log and minimum minutes as parameters
-function longSessions(log, minMinutes) {
+function longSessions(log, minMinutes) { // Another improvement suggestion I have is to use a better function name like sessionsLongerThan to improve readability.
   return log.filter(entry => entry.minutes > minMinutes); // This is using the higher-order function filter to create a new array containing only the entries from the log where the minutes spent on the hobby is greater than the specified minMinutes and then returns that filtered array.
 }
 
