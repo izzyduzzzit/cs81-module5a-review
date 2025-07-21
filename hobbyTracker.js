@@ -31,7 +31,7 @@ function countMood(log, moodType) {
 }
 
 // Example usage and output
-console.log("Total time spent:", totalTime(hobbyLog), "minutes");
-console.log("Unique hobbies:", uniqueHobbies(hobbyLog));
-console.log("Sessions longer than 30 min:", longSessions(hobbyLog, 30));
-console.log("Number of relaxed sessions:", countMood(hobbyLog, "relaxed"));
+console.log("Total time spent:", totalTime(hobbyLog), "minutes"); // Returns Total time spent: 155 minutes
+console.log("Unique hobbies:", uniqueHobbies(hobbyLog)); // Returns Unique hobbies: [ 'drawing', 'reading', 'gaming' ]
+console.log("Sessions longer than 30 min:", longSessions(hobbyLog, 30)); // Returns Sessions longer than 30 min: [ { day: 'Wednesday', hobby: 'gaming', minutes: 45, mood: 'excited' }, { day: 'Friday', hobby: 'reading', minutes: 35, mood: 'calm' } ]
+console.log("Number of relaxed sessions:", countMood(hobbyLog, "relaxed")); // Returns Number of relaxed sessions: 1
